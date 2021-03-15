@@ -5,8 +5,8 @@ stock = str(sys.argv[1])
 
 price = si.get_live_price(stock)
 price_str = str(price)
-file_price = "D:/Users/kubus/m300_lb2/webseite/python/tmp/prices.txt"
-file_stock = "D:/Users/kubus/m300_lb2/webseite/python/tmp/stock.txt"
+file_price = "/webseite/python/tmp/price"
+file_stock = "/webseite/python/tmp/stock"
 
 with open(file_price, 'w') as fileowrite:
         fileowrite.write(price_str+"<br>")
