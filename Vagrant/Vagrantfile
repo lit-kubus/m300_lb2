@@ -8,7 +8,7 @@ end
 
 config.vm.provision "file", source: "../webseite/index.php", destination: "/var/www/html/index.php"
 config.vm.provision "file", source: "../webseite/python/get_price.py", destination: "/var/www/html/python/get_price.py"
-config.vm.provision "file", source: "../webseite/css/main.css", destination: "/var/www/html/css/main.css"
+config.vm.provision "file", source: "../webseite/main.css", destination: "/var/www/html/main.css"
 config.vm.provision "shell", inline: <<-SHELL
 sudo apt-get update
 sudo apt-get -y upgrade
