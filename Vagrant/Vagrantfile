@@ -9,8 +9,7 @@ end
 config.vm.provision "file", source: "../webseite/index.php", destination: "/var/www/html/index.php"
 config.vm.provision "file", source: "../webseite/python/get_price.py", destination: "/var/www/html/python/get_price.py"
 config.vm.provision "file", source: "../webseite/main.css", destination: "/var/www/html/main.css"
-config.vm.provision "file", source: "../webseite/python/tmp/stock.txt", destination: "/var/www/html/stock.txt"
-config.vm.provision "file", source: "../webseite/python/tmp/prices.txt", destination: "/var/www/html/prices.txt"
+
 config.vm.provision "shell", inline: <<-SHELL
 sudo apt-get update
 sudo apt-get -y upgrade

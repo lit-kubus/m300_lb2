@@ -14,9 +14,9 @@
         
         <?php
             $value = $_POST['stock'];
-            $price = exec("python3.9 ./python/get_price.py $value 2<&1");
-            $value_py = file_get_contents( "./python/tmp/stock.txt" );
-            $price_py = file_get_contents( "./python/tmp/prices.txt" );
+            $price = exec("python3.6 ./python/get_price.py $value 2<&1");
+            $value_py = file_get_contents( "./python/tmp/stock" );
+            $price_py = file_get_contents( "./python/tmp/price" );
             echo "Price for: " .$value_py ."is: " .$price_py ;
         ?>
 <>
