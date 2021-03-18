@@ -9,7 +9,9 @@ config.vm.provision "shell", inline: <<-SHELL
   sudo apt-get update
   sudo apt-get -y upgrade
   sudo apt-get -y install apache2
+  sudo add-apt-repository ppa:deadsnakes/ppa
   sudo apt-get -y install python3.6
+  
 SHELL
 end
 
