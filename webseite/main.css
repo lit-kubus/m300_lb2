@@ -4,15 +4,34 @@ body {
     padding-top: 20px;
     
   }
-title {
+.title {
 
   background-color: grey;
+  padding: 1%;
 
 }
 
- {
-    align-items: center;
-  }
+.price-for{
 
+text-align: center;
+font-size: 30px;
 
+}
 
+.form{
+
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.footer{
+
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   text-align: center;
+
+}
