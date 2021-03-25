@@ -1,8 +1,10 @@
+# Daten für das Yahoo Finance Modul installieren und importieren
 import sys
 from yahoo_fin import stock_info as si
 
 stock = str(sys.argv[1])
 
+# Daten aus dem Modul in die Txt file eintragen
 price = si.get_live_price(stock)
 price_str = str(price)
 file_price = "/webseite/python/tmp/price"
