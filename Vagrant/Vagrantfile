@@ -10,7 +10,7 @@ config.vm.provision "file", source: "../webseite/index.php", destination: "/var/
 config.vm.provision "file", source: "../webseite/python/get_price.py", destination: "/var/www/html/python/get_price.py"
 config.vm.provision "file", source: "../webseite/main.css", destination: "/var/www/html/main.css"
 config.vm.provision "file", source: "../webseite/apache2.conf", destination: "/var/www/html/apache2.conf"
-config.vm.provision "file", source: "../webseite/.htaccess_unix", destination: "/var/www/html/.htaccess"
+config.vm.provision "file", source: "../webseite/.htaccess", destination: "/var/www/html/.htaccess"
 config.vm.provision "file", source: "../webseite/.htpasswd", destination: "/var/www/html/.htpasswd"
 
 config.vm.provision "shell", inline: <<-SHELL
