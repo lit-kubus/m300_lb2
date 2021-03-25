@@ -24,7 +24,6 @@ Die Webseite ist sehr simple aufgebaut. Da dies nur ein Prototype ist, ist sie n
 </br>
 
 So sieht der momentan Zustand der Webseite aus:
-
 <img src="./Bilder/webseite.png">
 
 Unter "Stock:" kann man einen beliebigen Aktiennamen eingeben und es wird danach unten beim "Price for:" und "is:" dargestellt.
