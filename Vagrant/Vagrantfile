@@ -21,6 +21,7 @@ sudo python3.6 get-pip.py
 sudo apt-get -y install apache2
 sudo apt -y install apache2 php libapache2-mod-php
 sudo python3.6 -m pip install yahoo_fin 
+sudo mkdir /var/www/html/python/tmp/
 SHELL
 end
 
