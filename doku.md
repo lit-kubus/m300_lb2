@@ -45,7 +45,7 @@ Hier wird bestummen welches Betriebssytem benutz wird
 
 Hier werden die Netzwerk Einstellungen definiert. Achtung: Um auf den Webserver zugreifen zu könne haben wir eine IP von unserem lokalen Netzwerk gewählt. Das bedeutet man müsste die IP anpassen oder im einen gültigen FQDN geben damit es für alles sichtbar ist.
 >  config.vm.network "public_network", ip: "192.168.1.69", guest:80, host:8080, auto_correct: true
-
+ 
 Hier wird der Ordner mit allen Datein definiert
 >  config.vm.synced_folder ".", "/var/www/html"  
 
